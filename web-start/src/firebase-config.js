@@ -20,7 +20,6 @@ export function getFirebaseConfig() {
     throw new Error('No Firebase configuration object provided.' + '\n' +
       'Add your web app\'s configuration object to firebase-config.js');
   } else {
-    console.log(config)
     return config;
   }
 }
